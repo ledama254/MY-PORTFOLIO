@@ -825,10 +825,11 @@ section {
         flex-direction: column;
         gap: 10px;
     }
-    footer {
-    padding: 1rem 0; /* Reduced from 2rem */
-    font-size: 0.9rem; /* Slightly smaller text */
-    margin-top: 1rem; /* Less space above footer */
+   footer {
+    padding: 0.5rem 0;
+    font-size: 0.8rem;
+    margin-top: 0.5rem;
+    line-height: 1.4;
 }
 }
 /* Style for contact buttons */
