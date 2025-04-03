@@ -874,3 +874,17 @@ footer {
     font-size: 0.9rem; /* Slightly smaller text */
     margin-top: 1rem; /* Less space above footer */
 }
+/* ----- Minimal Footer ----- */
+footer {
+  padding: 0.5rem 1rem;  /* Ultra-compact padding */
+  font-size: 0.75rem;    /* Small text */
+  text-align: center;
+  background: #f8f9fa;   /* Light gray background */
+  border-top: 1px solid #dee2e6; /* Subtle border */
+  margin-top: 1rem;      /* Space above footer */
+}
+
+footer p {
+  margin: 0;            /* Remove default paragraph margins */
+  padding: 0.25rem 0;   /* Tiny vertical padding */
+}
