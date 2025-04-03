@@ -869,3 +869,8 @@ section {
   transform: scale(1.1);
   opacity: 0.9;
 }
+footer {
+    padding: 1rem 0; /* Reduced from 2rem */
+    font-size: 0.9rem; /* Slightly smaller text */
+    margin-top: 1rem; /* Less space above footer */
+}
