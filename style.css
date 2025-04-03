@@ -826,3 +826,60 @@ section {
         gap: 10px;
     }
 }
+/* General button style */
+a {
+  display: inline-block;
+  padding: 15px 30px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out, background-color 0.3s ease;
+}
+
+/* Email button style */
+.email-button {
+  background-color: #4CAF50; /* Green background */
+  color: white;
+}
+
+.email-button:hover {
+  background-color: #45a049; /* Darker green on hover */
+  transform: translateY(-2px); /* Slightly raise button on hover */
+}
+
+/* WhatsApp button style */
+.whatsapp-button {
+  background-color: #25D366; /* WhatsApp green */
+  color: white;
+}
+
+.whatsapp-button:hover {
+  background-color: #128C7E; /* Darker green on hover */
+  transform: translateY(-2px); /* Slightly raise button on hover */
+}
+
+/* GitHub button style */
+.github-button {
+  background-color: #24292F; /* GitHub dark gray */
+  color: white;
+}
+
+.github-button:hover {
+  background-color: #6e7f92; /* Lighter gray on hover */
+  transform: translateY(-2px); /* Slightly raise button on hover */
+}
+
+/* LinkedIn button style */
+.linkedin-button {
+  background-color: #0077b5; /* LinkedIn blue */
+  color: white;
+}
+
+.linkedin-button:hover {
+  background-color: #005b8a; /* Darker blue on hover */
+  transform: translateY(-2px); /* Slightly raise button on hover */
+}
